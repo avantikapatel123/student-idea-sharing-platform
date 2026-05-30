@@ -24,7 +24,6 @@ export default function IdeaForm() {
         }
     }, [id, isEditMode, currentIdea]);
 
-    // अगर एडिट मोड में आईडी गलत है तो 404 रेंडर करें
     if (isEditMode && !currentIdea) {
         return (
             <div style={{ textAlign: 'center', margin: '50px' }}>

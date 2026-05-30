@@ -5,7 +5,6 @@ import IdeaCard from '../components/IdeaCard';
 export default function Dashboard() {
     const { ideas } = useIdeas();
 
-    // useMemo Optimization: नए आइडियाज को हमेशा ऊपर दिखाने के लिए सॉर्टिंग
     const sortedIdeas = useMemo(() => {
         return [...ideas].sort((a, b) => b.id - a.id);
     }, [ideas]);

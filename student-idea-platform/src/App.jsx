@@ -12,7 +12,7 @@ function AppContent() {
     const { loading, setLoading } = useIdeas();
 
     useEffect(() => {
-        // initial render loader simulation (450ms delay)
+       
         const timer = setTimeout(() => setLoading(false), 450); 
         return () => clearTimeout(timer);
     }, [setLoading]);

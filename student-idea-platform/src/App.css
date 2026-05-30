@@ -1,4 +1,4 @@
-/* Google Fonts Import */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
 
 *{
@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* यह फुटर को हमेशा सबसे नीचे धकेल देगा */
+    justify-content: space-between; 
     font-family: 'Inter', sans-serif;
     background: #f5f5f5;
     color: #1F2937;
@@ -21,7 +21,6 @@ h1, h2, h3 {
     font-family: 'Poppins', sans-serif;
 }
 
-/* NAVBAR */
 .navbar{
     position: fixed;
     top: 0;
@@ -76,15 +75,15 @@ h1, h2, h3 {
     transform: translateY(-2px);
 }
 
-/* MAIN */
+
 .main-container {
     flex: 1;
     text-align: center;
     margin-top: 100px;
-    padding: 20px 20px 40px 20px; /* नीचे थोड़ा एक्स्ट्रा स्पेस */
+    padding: 20px 20px 40px 20px; 
 }
 
-/* HERO */
+
 .Hero {
     padding: 40px 20px;
     margin-bottom: 20px;
@@ -117,7 +116,7 @@ h1, h2, h3 {
     transform: translateY(-2px);
 }
 
-/* FORM SECTION */
+
 .idea-form-section{
     display: flex;
     justify-content: center;
@@ -200,7 +199,6 @@ h1, h2, h3 {
     background: #15803D;
 }
 
-/* DASHBOARD & FEED */
 .dashboard{
     margin-top: 40px;
     padding: 20px;
@@ -231,7 +229,6 @@ h1, h2, h3 {
     font-size: 16px;
 }
 
-/* IDEA CARD with Animation */
 .idea-card{
     background: white;
     padding: 25px;
@@ -279,7 +276,7 @@ h1, h2, h3 {
     line-height: 1.5;
 }
 
-/* TAGS */
+
 .tags-container{
     margin-bottom: 15px;
     display: flex;
@@ -296,7 +293,6 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
-/* INFO */
 .idea-info{
     color: #9CA3AF;
     font-size: 13px;
@@ -305,7 +301,6 @@ h1, h2, h3 {
     padding-bottom: 10px;
 }
 
-/* BUTTONS */
 .card-buttons{
     display: flex;
     gap: 10px;
@@ -336,7 +331,7 @@ h1, h2, h3 {
 .edit-btn{ background: #CA8A04; }
 .delete-btn{ background: #DC2626; }
 
-/* COMMENT SECTION */
+
 .comment-section{
     margin-top: 15px;
     padding-top: 15px;
@@ -389,7 +384,7 @@ h1, h2, h3 {
     border-left: 3px solid #1E3A8A;
 }
 
-/* TOAST WITH ANIMATION */
+
 .toast-container{
     position: fixed;
     bottom: 20px;
@@ -407,7 +402,7 @@ h1, h2, h3 {
     animation: slideIn 0.3s ease;
 }
 
-/* LOADER */
+
 .loader-container{
     position: fixed;
     top: 0;
@@ -435,7 +430,7 @@ h1, h2, h3 {
     100%{ transform: rotate(360deg); }
 }
 
-/* FOOTER */
+
 .footer-container{
     text-align: center;
     padding: 30px 20px;
@@ -462,7 +457,7 @@ h1, h2, h3 {
     color: white;
 }
 
-/* RESPONSIVE */
+
 @media(max-width: 768px){
     .navbar{
         padding: 15px;
@@ -488,3 +483,5 @@ h1, h2, h3 {
         padding: 20px;
     }
 }
+
+
