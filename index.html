@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Idea Platform ↟𖠰˚☀︎ᨒ↟𖠰</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+           <span>IdeaHub 🧠</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#" id="home-link">Home ⾕</a></li>
+            <li><a href="#" id="explore-link">Explore જ⁀➴</a></li>
+            <li><button class="add-idea-btn"
+                id="add-idea-btn">[ ༒︎ Add Idea ]</button></li>
+        </ul>
+        
+    </nav>
+
+    <main class="main-container">
+        <section class="Hero hero" id="hero">
+            <h1>Turn Your Ideas Into Reality 💡</h1>
+            <p>Share ideas with the world 🌐</p>
+            <button id="get-started-btn">[ Get Started 🚀 ]</button>
+        </section>
+
+        <section class="idea-form-section">
+            <div class="form-card">
+                <h2>Add new Idea 🚀</h2>
+                <form id="idea-form">
+
+                    <div class="form-group">
+                        <label for="idea-title">Title</label>
+                        <input type="text" id="idea-title" name="idea-title" placeholder="Enter your idea title" required>
+                        <small class="error-messages"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea id="description" placeholder="Describe your idea"></textarea>
+                        <small class="error-messages"></small>
+                    </div>
+
+                     <div class="form-group">
+                        <label>Tags</label>
+                        <input type="text" id="tags" name="tags" placeholder="Add tags separated by commas">
+                     </div>
+
+                      <div class="form-group">
+                        <label>Category</label>
+
+                        <select id="category">
+                            <option value="">Select Category</option>
+                            <option value="Technology">Technology</option>
+                            <option value="Education">Education</option>
+                            <option value="Startup">Startup</option>
+                            <option value="Business">Business</option>
+                        </select>
+                      </div>
+
+                      <button type="submit" class="submit-btn">Submit your idea</button>
+                </form>
+            </div>
+   
+        </section>
+
+
+        <section class="dashboard" id="dashboard">
+           <h2>Idea Feed 💡</h2>
+           <div class="feed-container" id="feed-container">
+            
+           </div>
+        
+           <div class="empty-state" id="empty-state">
+             <p>No ideas yet. Be the first one to add! 🚀</p>
+           </div>
+        </section>
+
+
+    
+            <div class="toast-container">
+
+                <div class="toast" id="toast">
+                    Idea Added Successfully 🚀
+                </div>
+
+            </div>
+
+                <div class="loader-container" id="loader-container">
+
+                    <div class="loader"></div>
+
+                </div>
+
+    </main>
+
+
+    <footer class="footer-container">
+        <p>&copy; 2024 Student Idea Platform. All rights reserved.</p>
+        <ul>
+            <li><a href="">About 📋</a></li>
+            <li><a href="">Contact ☏</a></li>
+            <li><a href="">Social links 🔗</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
