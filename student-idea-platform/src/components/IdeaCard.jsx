@@ -42,3 +42,6 @@ export default function IdeaCard({ idea }) {
         </article>
     );
 }
+
+
+

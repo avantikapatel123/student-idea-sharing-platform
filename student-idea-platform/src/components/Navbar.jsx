@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
-                <span>IdeaHub 🧠</span>
+                <span>IdeaHub </span>
             </div>
             <ul className="nav-links">
                 <li>
