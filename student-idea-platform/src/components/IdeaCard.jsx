@@ -17,7 +17,7 @@ export default function IdeaCard({ idea }) {
             <p>{idea.description}</p>
             <div className="tags-container">
                 {idea.tags.map((tag, index) => (
-                    <span key={index} className="tag">#{tag}</span>
+                    <span key={index} className="tag">{tag}</span>
                 ))}
             </div>
             <div className="idea-info">
